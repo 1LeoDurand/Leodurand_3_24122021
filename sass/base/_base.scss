@@ -1,0 +1,62 @@
+// Global
+
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+// font-family: 'Shrikhand', cursive;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body, input, button, hgroup{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 25px;
+    letter-spacing : 2px; 
+}
+
+h2{
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+
+// Autres
+
+.background-lightgray {
+    background-color: $gris-tres-clair ;
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+    &:link{
+
+    }
+    &:visited {
+
+    }
+    &:focus {
+    
+    }
+    &:hover {
+    
+    }
+    &:active {
+    }
+}

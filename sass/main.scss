@@ -1,0 +1,20 @@
+// importer les fragments de sass
+
+@import './utils/_variables';
+@import './utils/_mixins';
+
+@import './base/_base';
+
+@import './components/_button';
+
+
+@import './layout/_header';
+
+@import './pages/_home';
+@import './pages/_page-menu';
+
+@import './layout/_footer';
+
+// Polices
+// Logo et titres: Shrikhand
+// Texte: Roboto

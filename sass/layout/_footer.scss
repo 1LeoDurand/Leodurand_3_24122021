@@ -1,0 +1,32 @@
+footer {
+    background-color: $gris-fonce;
+    color: white;
+    @media all and (min-width: 720px) {
+        text-align: center;
+    }
+}
+
+#footer__logo { 
+    filter: invert(100%);
+    width: 100px;
+    margin: 16px 0 5px 20px;
+    @media all and (min-width: 720px) {
+        margin: 35px 0 10px 45px;
+        width: 200px;
+    }
+}
+
+ul li{
+    list-style-type: none;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+ul {
+    padding-bottom: 30px;
+}
+
+footer .fas{
+    margin-right: 15px;
+    width: 10px;
+}

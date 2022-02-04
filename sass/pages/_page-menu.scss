@@ -1,0 +1,158 @@
+.fas.fa-arrow-left{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    @media all and (min-width: 1024px) {
+        font-size: 30px;
+        left: 30px;
+        top: 27px;
+    }
+}
+
+#entrees {
+    margin-top: 70px;
+}
+
+.bloc__repas{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(212, 212, 212);
+    margin-bottom: 13px;
+    width: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+    p {
+        margin : 10px 0 10px 0;
+        padding-right: 15px;
+    }
+    &:hover .reservation-repas{
+        width: 15%;
+        transition: all 0.8s ease-in-out 0s;
+        -webkit-transition: all 0.8s ease-in-out 0s;
+        -moz-transition: all 0.8s ease-in-out 0s;
+        -ms-transition: all 0.8s ease-in-out 0s;
+        -o-transition: all 0.8s ease-in-out 0s;
+}
+    &:hover .fa-check-circle {
+            animation: rotation 1s;
+            //transition-delay: .5s;
+            -webkit-animation: rotation 1s;
+            -webkit-transition: rotation 1s;
+            -moz-transition: rotation 1s;
+            -ms-transition: rotation 1s;
+            -o-transition: rotation 1s;
+}
+    &:nth-child(1){
+        animation: animation__repas 1s;
+        -webkit-animation: animation__repas 1s;
+    }
+    &:nth-child(2){
+        animation: animation__repas 2s;
+        -webkit-animation: animation__repas 2s;
+    }
+    &:nth-child(3){
+        animation: animation__repas 3s;
+        -webkit-animation: animation__repas 3s;
+    }
+    &:nth-child(4){
+        animation: animation__repas 4s;
+        -webkit-animation: animation__repas 4s;
+    }
+    @media all and (min-width: 720px) {
+        width: 45%;
+    }
+    @media all and (min-width: 1024px) {
+        width: 30%;
+    }
+}
+
+.content__repas {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    padding-left: 15px;
+    justify-content: space-between;
+}
+
+.page-menu hr {
+    margin-block-start: 5%;
+    background-color: $vert-bleu;
+    width: 30px;
+    height: 2px;
+    margin: 0 0 0 5%;
+}
+
+.button--menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body.page-menu{
+    background-color: #f6f6f6;
+}
+
+#entrees ul, #plats ul, #desserts ul {
+    padding-inline-start: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#entrees h2, #plats h2, #desserts h2 {
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+.reservation-repas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: $fond-vert;
+    font-size: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    width: 0;
+    transition: all 0.8s ease-in-out 0s;
+}
+
+.far.fa-heart.fa-2x{
+    position: relative;
+    right: 0%;
+}
+
+@keyframes animation__repas {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+}
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+}
+
+#entrees, #plats, #desserts {
+    @media all and (min-width: 1024px) {
+        padding: 0 10% 0 5%;
+    }
+}
