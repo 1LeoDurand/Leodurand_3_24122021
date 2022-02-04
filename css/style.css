@@ -149,6 +149,16 @@ li.flex {
 .fonctionnement__bloc .fas {
   margin: 0 20px 0 20px;
 }
+@media all and (min-width: 720px) {
+  .fonctionnement__bloc {
+    width: 470px;
+  }
+}
+@media all and (min-width: 1024px) {
+  .fonctionnement__bloc {
+    width: 770px;
+  }
+}
 .fonctionnement__chiffre {
   background-color: #9356DC;
   border-radius: 50px;
@@ -158,6 +168,9 @@ li.flex {
   z-index: 1;
 }
 
+#restaurant {
+  padding-top: 20px;
+}
 @media all and (min-width: 720px) {
   #restaurant {
     margin: 0 15% 0 15%;

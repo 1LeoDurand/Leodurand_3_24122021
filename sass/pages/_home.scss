@@ -24,9 +24,14 @@ li.flex {
     height: 70px;
     box-shadow: 2px 2px 10px rgb(212, 212, 212);
     margin-bottom: 8px;
-
         .fas{
         margin: 0 20px 0 20px;
+        }
+        @media all and (min-width: 720px) {
+            width: 470px;
+        }
+        @media all and (min-width: 1024px) {
+            width: 770px;
         }
     }
     &__chiffre {
@@ -37,11 +42,13 @@ li.flex {
         margin-right: -10px;
         z-index: 1;
     }
+    
 }
 
 // Section restaurant accueil
 
 #restaurant {
+    padding-top: 20px ;
     @media all and (min-width: 720px) {
         margin: 0 15% 0 15%;
     }
