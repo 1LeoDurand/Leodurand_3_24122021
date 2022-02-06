@@ -23,6 +23,12 @@
         margin: 0;
         padding-top: 30px;
     }
+    &__menu p {
+        margin-bottom: 28px;
+        margin-right: 15px;
+        margin-left: 15px;
+        font-size: 14px;
+    }
 }
 
 //header page restaurant
@@ -43,21 +49,21 @@
         padding-top: 10px;
         position: absolute;
         align-items: center;
-        top: 282px;
+        top: 278px;
         width: 100%;
-        border-radius: 20px;
         background-color: #f6f6f6;
         display: flex;
         justify-content: space-between;
-        border-top-right-radius: 30px;
-        border-top-left-radius: 30px;
+        border-top-right-radius: 35px;
+        border-top-left-radius: 35px;
         h1 {
             padding-left: 20px;
             font-family: 'Shrikhand', cursive;
         }
         .far {
-            padding-right: 40px;
+            padding-right: 35px;
             transition: all 0.8s ease 0s;
+            top: 0px;
             &:hover {
                 color: #9356DC;
                 transition: all 0.8s ease 0s;
