@@ -119,8 +119,8 @@ li.flex {
 
 .nouveau {
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 15px !important;
+    right: 15px !important;
     background-color: $fond-vert;
     color:$font-vert;
     border-radius: 2px;
